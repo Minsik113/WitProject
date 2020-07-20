@@ -11,5 +11,5 @@ def post_login(request):
     return render(request, 'blog/post_login.html',{'message': msg})
 
 def post_register(request):
-    msg="회원가입페이지"
+    msg="회원가입페이지 입니다~~"
     return render(request, 'blog/post_register.html', {'message': msg})
