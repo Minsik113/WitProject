@@ -7,7 +7,7 @@ def index(request):
     return render(request, 'blog/base.html',{'message': msg})
 
 def post_login(request):
-    msg = "login입니다."
+    msg = "login입니다!!!~~."
     return render(request, 'blog/post_login.html',{'message': msg})
 
 def post_register(request):
